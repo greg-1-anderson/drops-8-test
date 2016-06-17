@@ -1,0 +1,10 @@
+{
+    "name": "pantheon-systems/circle-scripts",
+    "description": "Use Circle CI to build a Drupal site with Composer, test with Behat, and then deploy to Pantheon.",
+    "require": {
+        "pantheon-systems/ci-scripts": "*"
+    },
+    "bin": [
+        "scripts/init-new-project"
+    ]
+}
