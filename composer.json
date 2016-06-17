@@ -64,22 +64,9 @@
     "drupal-scaffold": {
       "source": "https://raw.githubusercontent.com/pantheon-systems/drops-8/{version}/{path}",
       "includes": [
-        ".csslintrc",
-        ".editorconfig",
-        ".eslintignore",
-        ".eslintrc",
-        ".gitattributes",
-        "index.php",
-        "robots.txt",
         "sites/default/settings.php",
-        "sites/default/settings.pantheon.php",
-        "sites/default/default.settings.php",
-        "sites/default/default.services.yml",
-        "sites/development.services.yml",
-        "sites/example.settings.local.php",
-        "update.php"
-      ],
-      "omit-defaults": true
+        "sites/default/settings.pantheon.php"
+      ]
     }
   }
 }
