@@ -12,8 +12,8 @@ class ComposerStaticInite6ec7d4d157059c075ff5adf0cffb2c4
         'edc6464955a37aa4d5fbf39d40fb6ee7' => __DIR__ . '/..' . '/symfony/polyfill-php55/bootstrap.php',
         '3e2471375464aac821502deb0ac64275' => __DIR__ . '/..' . '/symfony/polyfill-php54/bootstrap.php',
         '32dcc8afd4335739640db7d200c1971d' => __DIR__ . '/..' . '/symfony/polyfill-apcu/bootstrap.php',
-        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
@@ -27,7 +27,6 @@ class ComposerStaticInite6ec7d4d157059c075ff5adf0cffb2c4
         'p' => 
         array (
             'phpseclib\\' => 10,
-            'phpDocumentor\\Reflection\\' => 25,
         ),
         'c' => 
         array (
@@ -45,10 +44,6 @@ class ComposerStaticInite6ec7d4d157059c075ff5adf0cffb2c4
         'X' => 
         array (
             'XdgBaseDir\\' => 11,
-        ),
-        'W' => 
-        array (
-            'Webmozart\\Assert\\' => 17,
         ),
         'S' => 
         array (
@@ -118,6 +113,8 @@ class ComposerStaticInite6ec7d4d157059c075ff5adf0cffb2c4
         ),
         'C' => 
         array (
+            'Consolidation\\OutputFormatters\\' => 31,
+            'Consolidation\\AnnotatedCommand\\' => 31,
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
         ),
@@ -136,12 +133,6 @@ class ComposerStaticInite6ec7d4d157059c075ff5adf0cffb2c4
         'phpseclib\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
-        ),
-        'phpDocumentor\\Reflection\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
         'cweagans\\Composer\\' => 
         array (
@@ -174,10 +165,6 @@ class ComposerStaticInite6ec7d4d157059c075ff5adf0cffb2c4
         'XdgBaseDir\\' => 
         array (
             0 => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src',
-        ),
-        'Webmozart\\Assert\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
         'Symfony\\Polyfill\\Php55\\' => 
         array (
@@ -359,6 +346,14 @@ class ComposerStaticInite6ec7d4d157059c075ff5adf0cffb2c4
         array (
             0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
         ),
+        'Consolidation\\OutputFormatters\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/consolidation/output-formatters/src',
+        ),
+        'Consolidation\\AnnotatedCommand\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/consolidation/annotated-command/src',
+        ),
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
@@ -384,6 +379,13 @@ class ComposerStaticInite6ec7d4d157059c075ff5adf0cffb2c4
     );
 
     public static $prefixesPsr0 = array (
+        'p' => 
+        array (
+            'phpDocumentor' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            ),
+        ),
         'o' => 
         array (
             'org\\bovigo\\vfs\\' => 
@@ -494,6 +496,13 @@ class ComposerStaticInite6ec7d4d157059c075ff5adf0cffb2c4
             'Doctrine\\Common\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/common/lib',
+            ),
+        ),
+        'C' => 
+        array (
+            'Consolidation' => 
+            array (
+                0 => __DIR__ . '/..' . '/drush/drush/lib',
             ),
         ),
         'B' => 
